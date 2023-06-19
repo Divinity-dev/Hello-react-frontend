@@ -9,7 +9,6 @@ function Greeting() {
   }, [dispatch]);
 
   const greetingData = useSelector((state) => state.greeting.data);
-  console.log(greetingData);
   return (
     <>
       <h2> greetings</h2>
